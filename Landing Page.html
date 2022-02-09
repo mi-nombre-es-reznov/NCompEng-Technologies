@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/2.3.0/css/reset.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet'>
+        <link rel="icon" href="Logos\logo.ico">
+        <link rel="stylesheet" href="CSS/ncet_styles.css" />
+        <script type="text/javascript" src="../Javascript/ncet_landing_js.js"></script>
+        <title>NCET Landing Page</title>
+    </head>
+
+    <body>
+        <!-- Landing Page -->
+        <div class = "section">
+
+            <!-- Flexbox with options on screen: Top 2 -->
+            <h1><span onclick="openNavsoc()">Socials</span></h1>
+            <h1><span onclick="openNavshop()">Shopping</span></h1>
+
+            <!-- Company name and Logo -->
+            <h1 style = "border: none; color: darkred; background-color: transparent; opacity: 1;">NCompEng <img src="../Logos/Logo Circle.png" width = "70" height = "70"/> Technologies</h1>
+            
+            <!-- Flexbox with options on screen: Top 2 -->
+            <h1><span onclick="openNavsite()">Sites</span></h1>
+            <h1><span onclick="openNavserv()">Services</span></h1>
+
+            <!-- Video container and Blue overlay -->
+            <div class="video-container">
+                <div class="color-overlay"></div>
+                    <video autoplay loop muted>
+                        <source src="Sanger.mp4" type="video/mp4" />
+                    </video>
+            </div>
+        </div>
+
+        <!-- Nav links for Social -->
+        <div id="social" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNavsoc()">&times;</a>
+          <a href="https://www.facebook.com/ncompengtechnologies/" target="_blank">Facebook</a>
+          <a href="https://www.instagram.com/ncompeng_technologies/" target="_blank">Instagram</a>
+        </div>
+
+        <!-- Nav links for Shopping -->
+        <div id="shop" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNavshop()">&times;</a>
+          <a href="https://poshmark.com/closet/vreznov" target="_blank">Poshmark</a>
+          <a href="https://www.ebay.com/usr/npep3327-glki4m4rbr" target="_blank">eBay</a>
+          <a href="https://www.facebook.com/marketplace/profile/100001406443279/?ref=share_attachment" target="_blank">Facebook Marketplace</a>
+          <a href="#" target="_blank">NCET Site -- Coming Soon</a>
+        </div>
+
+        <!-- Nav links for Sites -->
+        <div id="site" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNavsite()">&times;</a>
+          <a href="Landing Page.html" target="_blank">Landing Page</a>
+        </div>
+
+        <!-- Nav links for Services -->
+        <div id="service" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNavserv()">&times;</a>
+          <a href="https://www.youtube.com/user/Imdeathpeeps" target="_blank">NCET Gaming -- YouTube</a>
+          <a href="https://forms.gle/t9T7Vah7BCdULQps8" target="_blank">NCET Market Research -- Google Form</a>
+        </div>
+
+    </body>
+</html>

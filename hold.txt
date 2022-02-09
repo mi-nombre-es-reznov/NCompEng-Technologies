@@ -1,0 +1,93 @@
+    <header>
+        <!-- Div for company info at top of landing page -->
+        <div id="landing">
+            <img src="\Logos\Logo Circle.png" alt="Logo not found" width="150" height="150"/>
+            <h1 id = "CompHeadName">NCompEng Technologies</h1>
+            <h3 id = "CompTagName">@NCET</h3>
+        </div>
+    </header>
+
+    <!-- Salutations -->
+    <div id = "greet">
+        <h1>Salutations</h1>
+        <p>Thank you for visiting our Landing Page. Here you can find many of our different links to different services, sites, and platforms 
+            that we use to help serve you. Enjoy the many different services we offer and we hope to see you land here again soon!
+        </p>
+    </div>
+
+    <!-- Social Media Section -->
+    <div class = "sbs_cont">
+        <div class = "sbs_left" id = "FB">
+            <br />
+            <a href = "https://www.facebook.com/ncompengtechnologies/" style = "text-decoration: none; color: white;" target = "_blank"><h1>Facebook</h1></a>  
+        </div>
+        <div class = "sbs_center">
+            <h1>Social Media</h1>
+        </div>
+        <div class = "sbs_right" id = "Insta">
+            <br />
+            <a href = "https://www.instagram.com/ncompeng_technologies/" style = "text-decoration: none; color: white;" target = "_blank"><h1>Instagram</h1></a>  
+            <br />
+        </div>
+    </div>
+
+    <!-- Spacing -->
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+
+    <!-- Retail Sales Section -->
+    <div class = "sbs_cont">
+                <div class = "sbs_left" id = "Posh">
+            <br />
+            <a href = "https://poshmark.com/closet/vreznov" style = "text-decoration: none; color: white;" target = "_blank"><h1>Poshmark</h1></a>  
+        </div>
+        <div class = "sbs_center">
+            <h1>Retail</h1>
+        </div>
+        <div class = "sbs_right" id = "Market">
+            <br />
+            <a href = "https://www.facebook.com/marketplace/profile/100001406443279/?ref=share_attachment" style = "text-decoration: none; color: white;" target = "_blank"><h1>Facebook Marketplace</h1></a>  
+            <br />
+        </div>
+                <div class = "sbs_left" id = "eBay">
+            <br />
+            <a href = "https://www.ebay.com/usr/npep3327-glki4m4rbr" style = "text-decoration: none; color: white;" target = "_blank"><h1>eBay</h1></a>  
+        </div>
+        <div class = "sbs_center">
+            <h1>Sales</h1>
+        </div>
+        <div class = "sbs_right" id = "NCET">
+            <br />
+            <a href = "Landing Page.html" style = "text-decoration: none; color: white;" target = "_blank"><h1>NCompEng Technologies -- Coming Soon!</h1></a>  
+            <br />
+        </div>
+    </div>
+    
+    <!-- Spacing -->
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+
+
+    <!-- NCompEng Technologies Data -->
+    <center><h1 style ="color: darkred;">NCompEng Technologies Services and Sites</h1></center>
+    <div class = "sbs_cont">
+        <div class ="full">
+            <br />
+            <a href = "https://www.youtube.com/user/Imdeathpeeps" style = "text-decoration: none; color: white;" target = "_blank"><h1>YouTube Channel - NCET Gaming</h1></a>
+            <br />
+        </div>
+        <br /><br />
+        <div class ="full">
+            <br />
+            <a href = "https://forms.gle/t9T7Vah7BCdULQps8" style = "text-decoration: none; color: white;" target = "_blank"><h1>NCET Market Research</h1></a>
+            <br />
+        </div>
+    </div>
+    <br /><br />
