@@ -1,16 +1,7 @@
+/* Navbar Changes */
 #nav_logo {
     width: 50px;
     margin-right: 10px;
-}
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
 }
 
 #active {
@@ -41,4 +32,12 @@
     position: fixed;
     top: 0;
     height: 500px; /* whatever the height of the background image is */
+}
+
+/* Footer changes */
+#foot_alter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
 }
