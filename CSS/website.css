@@ -3,6 +3,11 @@ body {
     background-color: #6c757d;
 }
 
+/* Not Found Pages */
+.page-wrap {
+    min-height: 100vh;
+}
+
 /* Navbar Changes */
 #nav_logo {
     width: 50px;
